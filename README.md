@@ -8,7 +8,7 @@ A matchers library for automated tests of iOS applications using the Apple UIAut
 Installation 
 ------------
 
-The easiest way to use eyeTest is to clone this repo locally and periodically pull updates. Using Finder, drag and drop `eyeTestMatchers.js` into the `[AppName]Tests/Supporting Files` directory within your Xcode project.
+The easiest way to use eyeTest is to clone this repo locally and periodically pull updates. Using Finder, drag and drop `eyeTestMatchers.js` into the `[AppName]Tests/Supporting Files` directory within your Xcode project. Select the 'Copy items if needed' checkbox.
 
 Usage
 -----
