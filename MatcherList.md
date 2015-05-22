@@ -12,8 +12,8 @@ Basic functionality
 Checks the view for `text` as static text (i.e. a text label).
 The entire string must match the entire text label ("Hello" will not be detected if the label reads "Hello World").
 
-`fillInTextField(field: String, text; String)`
-Fills in `field` with `text`. `field` must be specified using an *accessibility label*.
+`fillInTextField(field: String, text: String)`
+Fills in `field` with `text`. `field` must be specified using an **accessibility label**.
 
 `tapButton(button: String)`
 Taps on `button`. `button` can either be the text shown on the button, or the accessibility label.
