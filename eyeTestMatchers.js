@@ -48,7 +48,7 @@ function testFailure(failString) {
     UIALogger.logFail("______FAIL: " + failString);
 }
 
-function checkViewContainsText(text) {
+function readText(text) {
     if (view.staticTexts()[text].isValid()) {
         testPass("Found text '" + text + "'");
     } else {
