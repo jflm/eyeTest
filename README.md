@@ -13,7 +13,7 @@ The easiest way to use eyeTest is to clone this repo locally and periodically pu
 Usage
 -----
 
-Create a new `.js` file within `[AppName]Tests`. This will be where you write the tests. You need to include the matcher set by adding `#import "eyeTestMatchers.js"` at the top of your code, and then you should be good to go!
+Create a new `.js` file within `[AppName]Tests`. This will be where you write the tests (in JavaScript). You need to include the matcher set by adding `#import "eyeTestMatchers.js"` at the top of your code, and then you should be good to go!
 
 Contributions
 -------------
