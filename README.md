@@ -1,6 +1,8 @@
 eyeTest
 =======
 
+:construction: Note: this tool is under construction but is available for use. Contributions to the matcher set are always welcome :construction:
+
 ![eyeTest logo](/SupportingFiles/eyeTest.png?raw=true)
 
 A matchers library for automated tests of iOS applications using the Apple UIAutomation instrument
