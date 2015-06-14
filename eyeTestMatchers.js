@@ -57,6 +57,24 @@ function readText(text) {
     }
 }
 
+function readTextInCollection(text) {
+    var textFound = false;
+    var cell;
+    var collectionCellArray = view.collectionViews()[0].cells();
+    for (var i = 0; i < collectionCellArray.length; i ++) {
+        cell = collectionCellArray[i];
+        if (cell.staticTexts()[text].isValid()) {
+            textFound = true;
+            break;
+        }
+    }
+    if (textFound) {
+        testPass("Found text '" + text + "'");
+    } else {
+        testFailure("Could not find text '" + text + "'");
+    }
+}
+
 function fillInTextField(field, text) {
     var textField = view.textFields()[field]
     if (textField.isValid()) {
